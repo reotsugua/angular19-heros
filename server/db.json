@@ -1,0 +1,141 @@
+{
+    "heroes": [
+      {
+        "id": 1,
+        "name": "Spider-Man",
+        "realName": "Peter Parker",
+        "team": "Avengers",
+        "firstAppearance": "Amazing Fantasy #15",
+        "abilities": ["Super strength", "Wall-crawling", "Spider-sense"],
+        "image": "https://example.com/spiderman.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Iron Man",
+        "realName": "Tony Stark",
+        "team": "Avengers",
+        "firstAppearance": "Tales of Suspense #39",
+        "abilities": ["Genius intellect", "Powered armor suit", "Flight"],
+        "image": "https://example.com/ironman.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Captain America",
+        "realName": "Steve Rogers",
+        "team": "Avengers",
+        "firstAppearance": "Captain America Comics #1",
+        "abilities": ["Enhanced strength", "Vibranium shield", "Leadership"],
+        "image": "https://example.com/captainamerica.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Thor",
+        "realName": "Thor Odinson",
+        "team": "Avengers",
+        "firstAppearance": "Journey into Mystery #83",
+        "abilities": ["God of Thunder", "Mjolnir", "Flight"],
+        "image": "https://example.com/thor.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Hulk",
+        "realName": "Bruce Banner",
+        "team": "Avengers",
+        "firstAppearance": "The Incredible Hulk #1",
+        "abilities": ["Superhuman strength", "Regeneration", "Durability"],
+        "image": "https://example.com/hulk.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Black Widow",
+        "realName": "Natasha Romanoff",
+        "team": "Avengers",
+        "firstAppearance": "Tales of Suspense #52",
+        "abilities": ["Espionage", "Martial arts", "Acrobatics"],
+        "image": "https://example.com/blackwidow.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Hawkeye",
+        "realName": "Clint Barton",
+        "team": "Avengers",
+        "firstAppearance": "Tales of Suspense #57",
+        "abilities": ["Archery", "Tactics", "Agility"],
+        "image": "https://example.com/hawkeye.jpg"
+      },
+      {
+        "id": 8,
+        "name": "Doctor Strange",
+        "realName": "Stephen Strange",
+        "team": "Defenders",
+        "firstAppearance": "Strange Tales #110",
+        "abilities": ["Magic", "Teleportation", "Time manipulation"],
+        "image": "https://example.com/doctorstrange.jpg"
+      },
+      {
+        "id": 9,
+        "name": "Black Panther",
+        "realName": "T'Challa",
+        "team": "Avengers",
+        "firstAppearance": "Fantastic Four #52",
+        "abilities": ["Enhanced senses", "Martial arts", "Vibranium suit"],
+        "image": "https://example.com/blackpanther.jpg"
+      },
+      {
+        "id": 10,
+        "name": "Scarlet Witch",
+        "realName": "Wanda Maximoff",
+        "team": "Avengers",
+        "firstAppearance": "X-Men #4",
+        "abilities": ["Chaos magic", "Telekinesis", "Reality manipulation"],
+        "image": "https://example.com/scarletwitch.jpg"
+      },
+      {
+        "id": 11,
+        "name": "Vision",
+        "realName": "Vision",
+        "team": "Avengers",
+        "firstAppearance": "Avengers #57",
+        "abilities": ["Density control", "Laser beams", "Intelligence"],
+        "image": "https://example.com/vision.jpg"
+      },
+      {
+        "id": 12,
+        "name": "Ant-Man",
+        "realName": "Scott Lang",
+        "team": "Avengers",
+        "firstAppearance": "Marvel Premiere #47",
+        "abilities": ["Size manipulation", "Insect communication", "Engineering"],
+        "image": "https://example.com/antman.jpg"
+      },
+      {
+        "id": 13,
+        "name": "Wasp",
+        "realName": "Hope van Dyne",
+        "team": "Avengers",
+        "firstAppearance": "Tales to Astonish #44",
+        "abilities": ["Size manipulation", "Flight", "Bio-electric blasts"],
+        "image": "https://example.com/wasp.jpg"
+      },
+      {
+        "id": 14,
+        "name": "Captain Marvel",
+        "realName": "Carol Danvers",
+        "team": "Avengers",
+        "firstAppearance": "Marvel Super-Heroes #13",
+        "abilities": ["Energy projection", "Flight", "Super strength"],
+        "image": "https://example.com/captainmarvel.jpg"
+      },
+      {
+        "id": 15,
+        "name": "Falcon",
+        "realName": "Sam Wilson",
+        "team": "Avengers",
+        "firstAppearance": "Captain America #117",
+        "abilities": ["Flight", "Combat skills", "Drone control"],
+        "image": "https://example.com/falcon.jpg"
+      }
+    ]
+  }
+  
+  
