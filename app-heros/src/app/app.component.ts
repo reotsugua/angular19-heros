@@ -1,13 +1,13 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
-import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import { RouterModule } from '@angular/router';
+import { PageHeaderComponent } from './components/page-header/page-header.component';
+
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, MatSlideToggleModule],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  imports: [RouterModule, PageHeaderComponent],
+  template: `<toh-page-header></toh-page-header><router-outlet />`
 })
 export class AppComponent {
 }
