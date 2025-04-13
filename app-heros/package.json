@@ -6,6 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
+    "preview": "http-server ./dist/app-heros/browser -p 8080",
     "test": "ng test"
   },
   "private": true,
