@@ -1,23 +1,18 @@
 <h1>Top Heros</h1>
 <section>
-    <div class="example-button-row">
-      <div class="example-flex-container">
-        <div class="example-button-container">
-          <button mat-fab extended>
-            Hero 1
-          </button>
-        </div>
-        <div class="example-button-container">
-          <button mat-fab extended>
-            Hero 3
-          </button>
-        </div>
-        <div class="example-button-container">
-          <button mat-fab extended>
-            Hero 3
-          </button>
-        </div>
-        
+  <div class="example-button-row">
+    <div class="example-flex-container">
+
+      @for( hero of topThreeHeros; track hero.id){
+      <div class="example-button-container">
+        <button mat-fab extended color>
+          {{hero.name}}
+        </button>
       </div>
+      } @empty {
+      empty
+      }
+
     </div>
-  </section>
+  </div>
+</section>

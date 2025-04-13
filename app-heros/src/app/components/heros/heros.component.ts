@@ -1,6 +1,8 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import {MatListModule} from '@angular/material/list';
 import { Hero } from '../hero';
+import { HerosService } from '../../heros.service';
+
 
 @Component({
   selector: 'toh-heros',
@@ -9,14 +11,13 @@ import { Hero } from '../hero';
   templateUrl: './heros.component.html',
   styleUrl: './heros.component.css'
 })
-export class HerosComponent {
-  readonly baseUrl = "https://placehold.co/";
+export class HerosComponent {  
+  heros: Hero[] = [];
+  herosService: HerosService = inject(HerosService);
+
+  constructor() {
+    this.heros = this.herosService.allHeros;
+  }
   
-  hero: Hero = {
-    id: 1,
-    name: "Spider-Man",
-    realName: 'Test city',
-    image: `${this.baseUrl}/75x50?text=Spider+Man`,
-  };
 
 }

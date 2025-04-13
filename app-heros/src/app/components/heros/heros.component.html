@@ -1,6 +1,30 @@
 <h1>My Heroes</h1>
 <mat-list role="list">
-    <mat-list-item role="listitem">Hero 1</mat-list-item>
-    <mat-list-item role="listitem">Hero 2</mat-list-item>
-    <mat-list-item role="listitem">Hero 3</mat-list-item>
+
+    @for (hero of heros; track hero.id) {
+        <!-- <mat-list-item role="listitem">
+            
+            <img [src]="hero.image">
+            {{ hero.name }}</mat-list-item> -->
+            <mat-list-item>
+                <img matListItemAvatar [src]="hero.image" alt={{hero.image}}>
+                <h3 matListItemTitle>{{hero.name}}</h3>
+                <p matListItemLine>
+                  <span>{{hero.realName}}</span>
+                  <span class="demo-2"> -- {{hero.team}}</span>
+                </p>
+              </mat-list-item>
+
+
+              <!-- <mat-list-item>
+                <mat-icon matListItemIcon>{{hero.name}}</mat-icon>
+                <h3 matListItemTitle>{{hero.name}}</h3>
+                <p matListItemLine>
+                    <span>{{hero.realName}}</span>
+                  <span class="demo-2"> -- {{hero.realName}}</span>
+                </p>
+              </mat-list-item> -->
+        } @empty {
+        <mat-list-item role="listitem">empty</mat-list-item>
+        }
 </mat-list>
