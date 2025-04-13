@@ -11,5 +11,7 @@ import {MatButtonModule} from '@angular/material/button';
     styleUrl: './page-header.component.css'
 })
 
-export class PageHeaderComponent {}
+export class PageHeaderComponent {
+    
+}
 
