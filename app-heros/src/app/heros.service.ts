@@ -35,6 +35,48 @@ export class HerosService {
         realName: "Thor Odinson",
         team: "Avengers",
         image: `${this.baseUrl}/75x75?text=Thor`,
+      },
+      {
+        id: 5,
+        name: "Black Widow",
+        realName: "Natasha Romanoff",
+        team: "Avengers",
+        image: `${this.baseUrl}/75x75?text=Bl+W`,
+      },
+      {
+        id: 6,
+        name: "Hulk",
+        realName: "Bruce Banner",
+        team: "Avengers",
+        image: `${this.baseUrl}/75x75?text=Hulk`,
+      },
+      {
+        id: 7,
+        name: "Hawkeye",
+        realName: "Clint Barton",
+        team: "Avengers",
+        image: `${this.baseUrl}/75x75?text=Hawk`,
+      },
+      {
+        id: 8,
+        name: "Doctor Strange",
+        realName: "Stephen Strange",
+        team: "Avengers",
+        image: `${this.baseUrl}/75x75?text=Dr+S`,
+      },
+      {
+        id: 9,
+        name: "Scarlet Witch",
+        realName: "Wanda Maximoff",
+        team: "Avengers",
+        image: `${this.baseUrl}/75x75?text=Sc+W`,
+      },
+      {
+        id: 10,
+        name: "Black Panther",
+        realName: "T'Challa",
+        team: "Avengers",
+        image: `${this.baseUrl}/75x75?text=BP`,
       }
     ];
 

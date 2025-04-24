@@ -8,19 +8,19 @@ export const routes: Routes = [
         component: TopHerosComponent,
         title: 'Dashboard',
     },
-    // {
-    //     path: 'details',
-    //     component: DetailsComponent,
-    //     title: 'Hero details',
-    // },
     {
         path: 'heros',
         title: 'Heros',
         loadComponent: () => import('./components/heros/heros.component').then(m => m.HerosComponent)
     },
-    // {
-    //     path: 'details/:id',
-    //     component: DetailsComponent,
-    //     title: 'Home details',
-    // }
+    {
+        path: 'details',
+        component: DetailsComponent,
+        title: 'Hero details',
+    },
+    {
+        path: 'details/:id',
+        component: DetailsComponent,
+        title: 'Home details',
+    }
 ];

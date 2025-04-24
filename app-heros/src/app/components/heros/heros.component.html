@@ -1,15 +1,15 @@
 <h1>My Heroes</h1>
-<mat-list role="list">
+<mat-action-list role="list" >
 
     @for (hero of heros; track hero.id) {
         <!-- <mat-list-item role="listitem">
             
             <img [src]="hero.image">
             {{ hero.name }}</mat-list-item> -->
-            <mat-list-item>
+            <mat-list-item   [routerLink]="['/details', hero.id]">
                 <img matListItemAvatar [src]="hero.image" alt={{hero.image}}>
                 <h3 matListItemTitle>{{hero.name}}</h3>
-                <p matListItemLine>
+                <p matListItemLine >
                   <span>{{hero.realName}}</span>
                   <span class="demo-2"> -- {{hero.team}}</span>
                 </p>
@@ -27,4 +27,4 @@
         } @empty {
         <mat-list-item role="listitem">empty</mat-list-item>
         }
-</mat-list>
+</mat-action-list>

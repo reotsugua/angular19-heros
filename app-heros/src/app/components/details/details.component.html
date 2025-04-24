@@ -1,1 +1,23 @@
-<p>details works!</p>
+<mat-card class="example-card" appearance="outlined">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image" [style.--image-url-tumb-details]="'url(' + hero?.image + ')'" ></div>
+      <mat-card-title>{{hero?.name}}</mat-card-title>
+      <mat-card-subtitle>details</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+      <h5>id: {{hero?.id}}</h5>
+      <form class="example-form">
+        <mat-form-field class="example-full-width" appearance="outline">
+          <mat-label>Hero name</mat-label>
+          <input matInput placeholder="Hero name" [value]="hero?.name">
+        </mat-form-field>
+      
+        
+        
+      </form>
+    </mat-card-content>
+    <mat-card-actions>
+        <button mat-button (click)="goBack()">VOLTAR</button>
+    </mat-card-actions>
+  </mat-card>
+  

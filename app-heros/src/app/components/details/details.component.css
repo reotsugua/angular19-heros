@@ -1,0 +1,19 @@
+.example-card {
+    margin-top: 10px;
+    max-width: 400px;
+  }
+  
+  .example-header-image {
+    background-image: var(--image-url-tumb-details);
+    background-size: cover;
+  }
+
+  .example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }

@@ -5,7 +5,7 @@
 
       @for( hero of topThreeHeros; track hero.id){
       <div class="example-button-container">
-        <button mat-fab extended color>
+        <button mat-fab extended color [routerLink]="['/details', hero.id]">
           {{hero.name}}
         </button>
       </div>
